@@ -1,5 +1,3 @@
-
-
 x = 10  # Global variable
 
 def function():
