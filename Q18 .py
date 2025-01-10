@@ -1,5 +1,7 @@
-# Write a Python program to assign a default value to a variable and change it if the user inputs a new value.
+# How do you delete a variable in Python?
+print("You can use the del statement to delete a variable.")
 
-x = 5  # default value
-x = int(input(f"Enter a new value (default is {x}): ") or x)
-print(f"Value of x: {x}")
+x=10
+print(x)
+del x
+print(x) # This will raise an error because x is deleted
